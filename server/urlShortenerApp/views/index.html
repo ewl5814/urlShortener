@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Url Shortener</title>
+    <link rel="stylesheet" href="/public/style.css" />
+  </head>
+  <body>
+    <h1>URL Shortener</h1>
+    <form action="/" method="post">
+      <p>
+        In order to use, type in the url you want to shorten and click submit.
+        You will be redirected to the json with a code for your url.
+      </p>
+      <p>Type into browser: [currentprojecturl]/shorturl/[urlcode]</p>
+      <label>Url :</label>
+      <input type="text" name="url" value="https://www.google.com" /><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
